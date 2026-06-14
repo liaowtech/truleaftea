@@ -21,6 +21,13 @@
             "menu": "footer"
           }
         },
+        "link_list_VCKyFN": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Shop",
+            "menu": "c-n-tea-menu"
+          }
+        },
         "footer-2": {
           "type": "text",
           "settings": {
@@ -31,6 +38,7 @@
       },
       "block_order": [
         "footer-0",
+        "link_list_VCKyFN",
         "footer-2"
       ],
       "settings": {
