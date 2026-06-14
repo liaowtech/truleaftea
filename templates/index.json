@@ -174,8 +174,8 @@
         "column1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Visible Real Ingredients",
+            "text": "<p><br/>Whole leaves, real petals and fruit you can see — never dust.<br/><br/></p>",
             "link_label": "",
             "link": ""
           }
@@ -183,8 +183,8 @@
         "column2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "0 Calories",
+            "text": "<p><br/>Naturally sweet, nothing artificial in your cup.<br/><br/></p>",
             "link_label": "",
             "link": ""
           }
@@ -192,8 +192,17 @@
         "column3": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Plastic-Free Sachets",
+            "text": "<p><br/>Pyramid tea bags made from corn fiber, not nylon.<br/><br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_PYLDcp": {
+          "type": "column",
+          "settings": {
+            "title": "Brews Hot or Cold",
+            "text": "<p><br/>Hot in 3–5 min, or cold brew overnight.<br/><br/></p>",
             "link_label": "",
             "link": ""
           }
@@ -202,19 +211,64 @@
       "block_order": [
         "column1",
         "column2",
-        "column3"
+        "column3",
+        "column_PYLDcp"
       ],
       "settings": {
-        "title": "",
+        "title": "Why C&N TEA",
         "heading_size": "h1",
         "image_width": "third",
         "image_ratio": "adapt",
         "button_label": "",
         "button_link": "",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "column_alignment": "center",
         "background_style": "none",
         "color_scheme": "scheme-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_6Jxh6j": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_DgF9Xb": {
+          "type": "column",
+          "settings": {
+            "title": "Hot",
+            "text": "<p>1 sachet · 300ml · 90°C · steep 3–5 min.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FjcUR6": {
+          "type": "column",
+          "settings": {
+            "title": "Cold Brew",
+            "text": "<p>1 sachet · 300ml · refrigerate 5–7 hrs.<br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_DgF9Xb",
+        "column_FjcUR6"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "How to Brew",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "按钮标签",
+        "button_link": "",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
@@ -228,6 +282,7 @@
     "featured_collection",
     "collage",
     "video",
-    "multicolumn"
+    "multicolumn",
+    "multicolumn_6Jxh6j"
   ]
 }
