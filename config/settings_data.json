@@ -10,7 +10,8 @@
 {
   "current": {
     "logo": "shopify://shop_images/cn-tea-logo-green_1.png",
-    "logo_width": 90,
+    "logo_width": 160,
+    "favicon": "shopify://shop_images/2.svg",
     "type_header_font": "playfair_display_n4",
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
