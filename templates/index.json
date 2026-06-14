@@ -45,7 +45,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/ROSEBERRY_9f8adb60-1d46-4849-a03a-e93f232ac751.png",
-        "image_overlay_opacity": 40,
+        "image_overlay_opacity": 50,
         "image_height": "large",
         "image_behavior": "none",
         "desktop_content_position": "bottom-center",
