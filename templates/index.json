@@ -274,6 +274,40 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "newsletter_xyWTqW": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_jMjNht": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join the C&N TEA Club",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_LHHHNy": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Get 10% off your first order, brewing tips, and early access to new blends.</p>"
+          }
+        },
+        "email_form_nbyAhf": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_jMjNht",
+        "paragraph_LHHHNy",
+        "email_form_nbyAhf"
+      ],
+      "name": "t:sections.newsletter.presets.name",
+      "settings": {
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -283,6 +317,7 @@
     "collage",
     "video",
     "multicolumn",
-    "multicolumn_6Jxh6j"
+    "multicolumn_6Jxh6j",
+    "newsletter_xyWTqW"
   ]
 }
