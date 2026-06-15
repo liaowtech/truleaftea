@@ -132,7 +132,11 @@
         "column_PYLDcp"
       ],
       "custom_css": [
-        ".multicolumn-list__item:nth-child(2) strong {font-family: Arial, sans-serif !important; font-weight: normal !important; /* 让 0 恢复正常粗细，不突兀 */}"
+        ".multicolumn-list__item:nth-child(2) strong {font-family: Arial, sans-serif !important; font-weight: normal !important; /* 让 0 恢复正常粗细，不突兀 */}",
+        "/* 强制多列网格中的所有卡片高度整齐划一，顶部和底部绝对对齐 */.multicolumn-list {display: flex !important;}",
+        ".multicolumn-list__item {display: flex !important;}",
+        ".multicolumn-card {display: flex !important; flex-direction: column !important; height: 100% !important;}",
+        ".multicolumn-card__info {flex-grow: 1 !important; display: flex !important; flex-direction: column !important; justify-content: space-between !important;}"
       ],
       "settings": {
         "title": "Why C&N TEA",
