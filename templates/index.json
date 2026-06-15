@@ -45,7 +45,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/ROSEBERRY_banner.png",
-        "image_overlay_opacity": 60,
+        "image_overlay_opacity": 30,
         "image_height": "large",
         "image_behavior": "none",
         "desktop_content_position": "middle-left",
@@ -133,7 +133,7 @@
       ],
       "custom_css": [
         ".multicolumn-list__item:nth-child(2) strong {font-family: Arial, sans-serif !important; font-weight: normal !important; /* 让 0 恢复正常粗细，不突兀 */}",
-        "/* 强制多列的所有标题不折行，保持在一行内，完美横向对齐 */.multicolumn-card__info .inline-richtext,.multicolumn-card__info h3 {white-space: nowrap !important;}"
+        " /* 强制多列的所有标题不折行，保持在一行内，完美横向对齐 */.multicolumn-card__info .inline-richtext,.multicolumn-card__info h3 {white-space: nowrap !important;}"
       ],
       "settings": {
         "title": "Why C&N TEA",
