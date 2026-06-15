@@ -92,7 +92,7 @@
           "type": "column",
           "settings": {
             "title": "Visible Real Ingredients",
-            "text": "<p>Whole leaves, real petals and fruit you can see — never dust.</p>",
+            "text": "<p>Whole leaves, real petals and fruit you can see.</p>",
             "link_label": "",
             "link": ""
           }
@@ -132,7 +132,8 @@
         "column_PYLDcp"
       ],
       "custom_css": [
-        ".multicolumn-list__item:nth-child(2) strong {font-family: Arial, sans-serif !important; font-weight: normal !important; /* 让 0 恢复正常粗细，不突兀 */}"
+        ".multicolumn-list__item:nth-child(2) strong {font-family: Arial, sans-serif !important; font-weight: normal !important; /* 让 0 恢复正常粗细，不突兀 */}",
+        "/* 强制多列的所有标题不折行，保持在一行内，完美横向对齐 */.multicolumn-card__info .inline-richtext,.multicolumn-card__info h3 {white-space: nowrap !important;}"
       ],
       "settings": {
         "title": "Why C&N TEA",
