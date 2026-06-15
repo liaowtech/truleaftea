@@ -100,7 +100,7 @@
         "column2": {
           "type": "column",
           "settings": {
-            "title": "0 Calories",
+            "title": "<strong>0</strong> Calories",
             "text": "<p>Naturally sweet, nothing artificial in your cup.</p>",
             "link_label": "",
             "link": ""
@@ -132,7 +132,7 @@
         "column_PYLDcp"
       ],
       "custom_css": [
-        "/* 只有当多列标题包含 \"0\" 时，才将字体切换为椭圆数字的 Arial */.multicolumn-card__info h3[data-inline-element-text*=\"0\"],.multicolumn-card__info h3:has(.inline-richtext:contains(\"0\")),.multicolumn-list__item:nth-child(2) .multicolumn-card__info .inline-richtext {font-family: Arial, sans-serif !important;}"
+        ".multicolumn-list__item:nth-child(2) strong {font-family: Arial, sans-serif !important; font-weight: normal !important; /* 让 0 恢复正常粗细，不突兀 */}"
       ],
       "settings": {
         "title": "Why C&N TEA",
