@@ -132,8 +132,7 @@
         "column_PYLDcp"
       ],
       "custom_css": [
-        ".multicolumn-card__info h3 {font-family: Arial, sans-serif !important;}",
-        ".multicolumn-list__item:first-child {padding-left: 0rem !important;}"
+        "/* 只有当多列标题包含 \"0\" 时，才将字体切换为椭圆数字的 Arial */.multicolumn-card__info h3[data-inline-element-text*=\"0\"],.multicolumn-card__info h3:has(.inline-richtext:contains(\"0\")),.multicolumn-list__item:nth-child(2) .multicolumn-card__info .inline-richtext {font-family: Arial, sans-serif !important;}"
       ],
       "settings": {
         "title": "Why C&N TEA",
