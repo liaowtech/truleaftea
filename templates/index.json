@@ -131,7 +131,10 @@
         "column3",
         "column_PYLDcp"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".multicolumn-card__info h3 {font-family: Arial, sans-serif !important;}",
+        ".multicolumn-list__item:first-child {padding-left: 0rem !important;}"
+      ],
       "settings": {
         "title": "Why C&N TEA",
         "heading_size": "h1",
