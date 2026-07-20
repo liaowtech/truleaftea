@@ -37,6 +37,9 @@
     },
     "header": {
       "type": "header",
+      "custom_css": [
+        ".header__menu-item {font-size: 1.5rem !important; /* 放大字体（也可以写成 15px 或 16px） */ text-transform: uppercase !important; /* 强制大写（完全参考 saanwu 的大写风格） */ letter-spacing: 0.15rem !important; /* 拉开字间距，消除紧凑感，显得更有呼吸感 */ font-weight: 500 !important; /* 稍微加粗一点（500是中等粗细） */}"
+      ],
       "settings": {
         "logo_position": "middle-left",
         "mobile_logo_position": "center",
