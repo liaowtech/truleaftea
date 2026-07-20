@@ -38,7 +38,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-        ".header__menu-item {font-size: 110% !important; text-transform: uppercase !important; letter-spacing: 2px !important; font-weight: 500 !important; padding-left: 10px !important; padding-right: 10px !important;}"
+        ".header__menu-item {font-size: 15px !important; text-transform: uppercase !important; letter-spacing: 0.5px !important; font-weight: 500 !important; padding-left: 8px !important; padding-right: 8px !important;}"
       ],
       "settings": {
         "logo_position": "middle-left",
