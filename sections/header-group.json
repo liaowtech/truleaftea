@@ -38,7 +38,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-        ".header__menu-item {font-size: 1.4rem !important; /* 稍微收齐到 1.4rem (大约14px) */ text-transform: uppercase !important; /* 保持大写风格 */ letter-spacing: 0.08rem !important; /* 字间距从 0.15 缩小到 0.08，给整行腾出空间 */ font-weight: 500 !important; /* 保持中等粗细 */ padding-left: 1.5rem !important; /* 紧凑每一个菜单的左边距（默认通常是 2rem） */ padding-right: 1.5rem !important; /* 紧凑每一个菜单的右边距 */}"
+        ".header__menu-item {font-size: 13px !important; text-transform: uppercase !important; letter-spacing: 1px !important; font-weight: 500 !important; padding-left: 10px !important; padding-right: 10px !important;}"
       ],
       "settings": {
         "logo_position": "middle-left",
