@@ -14,10 +14,16 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "brand_information_3HXKRR": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": false
+          }
+        },
         "footer-0": {
           "type": "link_list",
           "settings": {
-            "heading": "Info",
+            "heading": "",
             "menu": "footer"
           }
         },
@@ -37,6 +43,7 @@
         }
       },
       "block_order": [
+        "brand_information_3HXKRR",
         "footer-0",
         "link_list_VCKyFN",
         "footer-2"
