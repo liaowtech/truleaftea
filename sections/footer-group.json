@@ -14,17 +14,17 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "text_JxAFDF": {
-          "type": "text",
-          "settings": {
-            "heading": "Get in touch",
-            "subtext": "<p>Email: <a href=\"mailto:support@charmandnature.com\">support@charmandnature.com</a><br/>Address: 30 N Gould St, Ste N, Sheridan, WY 82801, USA<br/><br/></p>"
-          }
-        },
         "brand_information_3HXKRR": {
           "type": "brand_information",
           "settings": {
             "show_social": false
+          }
+        },
+        "text_JxAFDF": {
+          "type": "text",
+          "settings": {
+            "heading": "Get in touch",
+            "subtext": "<p>Email: <a href=\"mailto:support@charmandnature.com\">support@charmandnature.com</a><br/>Address: 30 N Gould St, Ste N, Sheridan, WY 82801, USA</p>"
           }
         },
         "footer-0": {
@@ -43,6 +43,7 @@
         },
         "footer-2": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "heading": "Charm & Nature",
             "subtext": "<p>Whole-leaf teas with real petals & fruit you can see, plus handcrafted teaware. Plastic-free, never dust.</p>"
@@ -50,8 +51,8 @@
         }
       },
       "block_order": [
-        "text_JxAFDF",
         "brand_information_3HXKRR",
+        "text_JxAFDF",
         "footer-0",
         "link_list_VCKyFN",
         "footer-2"
