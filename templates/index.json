@@ -92,7 +92,7 @@
           "type": "column",
           "settings": {
             "title": "Free over $60",
-            "text": "",
+            "text": "<p>Standard U.S. shipping is $5.90. Orders $60+ ship free — applied at checkout.</p>",
             "link_label": "",
             "link": ""
           }
@@ -101,7 +101,7 @@
           "type": "column",
           "settings": {
             "title": "C&N TEA, 3-7 days",
-            "text": "",
+            "text": "<p>From our U.S. warehouse, after 1–3 business days processing.</p>",
             "link_label": "",
             "link": ""
           }
@@ -110,7 +110,7 @@
           "type": "column",
           "settings": {
             "title": "Teaware & Herbals, 8-15 days",
-            "text": "",
+            "text": "<p>These ship from our international fulfillment center, with separate tracking if you order tea too.</p>",
             "link_label": "",
             "link": ""
           }
