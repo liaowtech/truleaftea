@@ -85,6 +85,60 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_GjACK3": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_HLz9CM": {
+          "type": "column",
+          "settings": {
+            "title": "Free over $60",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_UFkkfL": {
+          "type": "column",
+          "settings": {
+            "title": "C&N TEA, 3-7 days",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Vbd3eY": {
+          "type": "column",
+          "settings": {
+            "title": "Teaware & Herbals, 8-15 days",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_HLz9CM",
+        "column_UFkkfL",
+        "column_Vbd3eY"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Shipping, simple and fair",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 1,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "featured_collection_kQwKGW": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
@@ -263,6 +317,7 @@
   "order": [
     "image_banner",
     "featured_collection",
+    "multicolumn_GjACK3",
     "featured_collection_kQwKGW",
     "multicolumn",
     "multicolumn_6Jxh6j",
