@@ -45,6 +45,13 @@
           "type": "quantity_selector",
           "settings": {}
         },
+        "text_dgtJgt": {
+          "type": "text",
+          "settings": {
+            "text": "C&N TEA ships from our U.S. warehouse in 3–7 business days. Herbal blends, loose-leaf, and teaware ship in 8–15 days. Standard shipping $5.90 · free on orders $60+. <a href=\"/policies/shipping-policy\" title=\"Shipping Policy\">Shipping policy</a>",
+            "text_style": "uppercase"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -110,6 +117,7 @@
         "price",
         "variant_picker",
         "quantity_selector",
+        "text_dgtJgt",
         "buy_buttons",
         "description",
         "collapsible-row-0",
