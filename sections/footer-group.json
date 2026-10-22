@@ -24,7 +24,7 @@
           "type": "text",
           "settings": {
             "heading": "Get in touch",
-            "subtext": "<p>Email: <a href=\"mailto:support@charmandnature.com\">support@charmandnature.com</a><br/>Address: 30 N Gould St, STE R, Sheridan, WY 82801, USA</p>"
+            "subtext": "<p>Email: <a href=\"mailto:support@charmandnature.com\">support@charmandnature.com</a><br/>Address: 30 N Gould St, STE R, Sheridan, WY 82801, USA<br/>Operated by VIKTOR SUPPLY LLC</p>"
           }
         },
         "footer-0": {
@@ -45,7 +45,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "heading": "Charm & Nature",
+            "heading": "&nbsp;© 2026 Charm & Nature · Operated by VIKTOR SUPPLY LLC · 30 N Gould St Ste R, Sheridan, WY 82801&nbsp;",
             "subtext": "<p>Whole-leaf teas with real petals & fruit you can see, plus handcrafted teaware. Plastic-free, never dust.</p>"
           }
         }
