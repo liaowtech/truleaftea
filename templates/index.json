@@ -60,14 +60,14 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "collection": "cn-tea",
-        "products_to_show": 6,
-        "title": "C&N TEA",
+        "collection": "herbal-blends",
+        "products_to_show": 3,
+        "title": "Herbal Blends",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "columns_desktop": 2,
+        "columns_desktop": 3,
         "enable_desktop_slider": false,
         "full_width": false,
         "show_view_all": false,
