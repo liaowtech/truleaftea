@@ -9,54 +9,6 @@
  */
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Tea and teaware for everyday rituals.",
-            "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "Whole-leaf teas from Yunnan and well-made teaware, chosen to be used every day. Hand-thrown Jingdezhen porcelain arriving soon.",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop Teaware",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "Shop Tea",
-            "button_link_2": "shopify://collections/all",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/ROSEBERRY_banner.png",
-        "image_overlay_opacity": 0,
-        "image_height": "large",
-        "image_behavior": "none",
-        "desktop_content_position": "middle-left",
-        "desktop_content_alignment": "left",
-        "show_text_box": false,
-        "color_scheme": "scheme-1",
-        "stack_images_on_mobile": false,
-        "mobile_content_alignment": "center",
-        "show_text_below": false
-      }
-    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -312,10 +264,84 @@
         "padding_top": 64,
         "padding_bottom": 64
       }
+    },
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_tea": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/hero-tea-yunnan.jpg",
+            "image_overlay_opacity": 20,
+            "heading": "Tea from Yunnan.",
+            "heading_size": "h0",
+            "subheading": "Whole-leaf floral teas and pu-erh tea essence, picked and packed at origin.",
+            "button_label": "Shop Tea",
+            "link": "shopify://collections/tea",
+            "button_style_secondary": true,
+            "show_text_box": false,
+            "box_align": "middle-left",
+            "text_alignment": "left",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-3"
+          }
+        },
+        "slide_teaware": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/hero-teaware-tuse.jpg",
+            "image_overlay_opacity": 10,
+            "heading": "Teaware from Jingdezhen.",
+            "heading_size": "h0",
+            "subheading": "Hand-glazed porcelain by TUSE. Gaiwan, cups, teapots and vases made to be used every day.",
+            "button_label": "Shop Teaware",
+            "link": "shopify://collections/teaware",
+            "button_style_secondary": true,
+            "show_text_box": false,
+            "box_align": "middle-left",
+            "text_alignment": "left",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-3"
+          }
+        },
+        "slide_both": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/hero-tea-and-teaware.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "Tea from Yunnan. Teaware from Jingdezhen.",
+            "heading_size": "h0",
+            "subheading": "Two origins, one table. Charm & Nature brings the leaf and the vessel together.",
+            "button_label": "Explore the collection",
+            "link": "shopify://collections/all",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-left",
+            "text_alignment": "left",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        }
+      },
+      "block_order": [
+        "slide_tea",
+        "slide_teaware",
+        "slide_both"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "large",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
     }
   },
   "order": [
-    "image_banner",
+    "slideshow",
     "featured_collection",
     "multicolumn_GjACK3",
     "multicolumn",
