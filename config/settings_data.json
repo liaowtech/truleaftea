@@ -12,31 +12,31 @@
     "logo": "shopify://shop_images/charmandnature.svg",
     "logo_width": 160,
     "favicon": "shopify://shop_images/charmandnature-favicon.svg",
-    "type_header_font": "playfair_display_n4",
-    "heading_scale": 100,
-    "type_body_font": "assistant_n4",
+    "type_header_font": "cormorant_garamond_n4",
+    "heading_scale": 110,
+    "type_body_font": "inter_n4",
     "body_scale": 100,
-    "page_width": 1100,
-    "spacing_sections": 0,
+    "page_width": 1300,
+    "spacing_sections": 16,
     "spacing_grid_horizontal": 8,
     "spacing_grid_vertical": 8,
     "buttons_border_thickness": 1,
     "buttons_border_opacity": 100,
-    "buttons_radius": 4,
+    "buttons_radius": 0,
     "buttons_shadow_opacity": 0,
     "buttons_shadow_horizontal_offset": 0,
     "buttons_shadow_vertical_offset": 4,
     "buttons_shadow_blur": 5,
     "variant_pills_border_thickness": 1,
     "variant_pills_border_opacity": 55,
-    "variant_pills_radius": 40,
+    "variant_pills_radius": 0,
     "variant_pills_shadow_opacity": 0,
     "variant_pills_shadow_horizontal_offset": 0,
     "variant_pills_shadow_vertical_offset": 4,
     "variant_pills_shadow_blur": 5,
     "inputs_border_thickness": 1,
     "inputs_border_opacity": 55,
-    "inputs_radius": 4,
+    "inputs_radius": 0,
     "inputs_shadow_opacity": 0,
     "inputs_shadow_horizontal_offset": 0,
     "inputs_shadow_vertical_offset": 4,
@@ -47,7 +47,7 @@
     "card_color_scheme": "scheme-2",
     "card_border_thickness": 1,
     "card_border_opacity": 10,
-    "card_corner_radius": 6,
+    "card_corner_radius": 0,
     "card_shadow_opacity": 0,
     "card_shadow_horizontal_offset": 0,
     "card_shadow_vertical_offset": 4,
@@ -58,7 +58,7 @@
     "collection_card_color_scheme": "scheme-2",
     "collection_card_border_thickness": 1,
     "collection_card_border_opacity": 10,
-    "collection_card_corner_radius": 6,
+    "collection_card_corner_radius": 0,
     "collection_card_shadow_opacity": 0,
     "collection_card_shadow_horizontal_offset": 0,
     "collection_card_shadow_vertical_offset": 4,
@@ -69,7 +69,7 @@
     "blog_card_color_scheme": "scheme-2",
     "blog_card_border_thickness": 1,
     "blog_card_border_opacity": 10,
-    "blog_card_corner_radius": 6,
+    "blog_card_corner_radius": 0,
     "blog_card_shadow_opacity": 0,
     "blog_card_shadow_horizontal_offset": 0,
     "blog_card_shadow_vertical_offset": 4,
@@ -83,7 +83,7 @@
     "text_boxes_shadow_blur": 5,
     "media_border_thickness": 1,
     "media_border_opacity": 5,
-    "media_radius": 6,
+    "media_radius": 0,
     "media_shadow_opacity": 0,
     "media_shadow_horizontal_offset": 0,
     "media_shadow_vertical_offset": 0,
@@ -102,7 +102,7 @@
     "drawer_shadow_vertical_offset": 4,
     "drawer_shadow_blur": 5,
     "badge_position": "bottom left",
-    "badge_corner_radius": 40,
+    "badge_corner_radius": 0,
     "sale_badge_color_scheme": "scheme-5",
     "sold_out_badge_color_scheme": "scheme-3",
     "brand_image": "shopify://shop_images/charm_nature.png",
@@ -154,57 +154,57 @@
     "color_schemes": {
       "scheme-1": {
         "settings": {
-          "background": "#fdfbf7",
+          "background": "#f4efe9",
           "background_gradient": "",
-          "text": "#3a3833",
-          "button": "#2e5a39",
-          "button_label": "#fdfbf7",
-          "secondary_button_label": "#2e5a39",
-          "shadow": "#2e5a39"
+          "text": "#2b2724",
+          "button": "#2b2724",
+          "button_label": "#f4efe9",
+          "secondary_button_label": "#2b2724",
+          "shadow": "#2b2724"
         }
       },
       "scheme-2": {
         "settings": {
-          "background": "#f2eee3",
+          "background": "#e9dfd5",
           "background_gradient": "",
-          "text": "#3a3833",
-          "button": "#2e5a39",
-          "button_label": "#fdfbf7",
-          "secondary_button_label": "#2e5a39",
-          "shadow": "#2e5a39"
+          "text": "#2b2724",
+          "button": "#2b2724",
+          "button_label": "#f4efe9",
+          "secondary_button_label": "#2b2724",
+          "shadow": "#2b2724"
         }
       },
       "scheme-3": {
         "settings": {
-          "background": "#2e5a39",
+          "background": "#3a3331",
           "background_gradient": "",
-          "text": "#fdfbf7",
-          "button": "#fdfbf7",
-          "button_label": "#2e5a39",
-          "secondary_button_label": "#fdfbf7",
-          "shadow": "#244a2e"
+          "text": "#f4efe9",
+          "button": "#f4efe9",
+          "button_label": "#2b2724",
+          "secondary_button_label": "#f4efe9",
+          "shadow": "#2b2724"
         }
       },
       "scheme-4": {
         "settings": {
-          "background": "#d68a9a",
+          "background": "#dccbbf",
           "background_gradient": "",
-          "text": "#3a3833",
-          "button": "#2e5a39",
-          "button_label": "#fdfbf7",
-          "secondary_button_label": "#3a3833",
-          "shadow": "#2e5a39"
+          "text": "#2b2724",
+          "button": "#2b2724",
+          "button_label": "#f4efe9",
+          "secondary_button_label": "#2b2724",
+          "shadow": "#2b2724"
         }
       },
       "scheme-5": {
         "settings": {
-          "background": "#2e5a39",
+          "background": "#2b2724",
           "background_gradient": "",
-          "text": "#fdfbf7",
-          "button": "#fdfbf7",
-          "button_label": "#2e5a39",
-          "secondary_button_label": "#fdfbf7",
-          "shadow": "#244a2e"
+          "text": "#f4efe9",
+          "button": "#f4efe9",
+          "button_label": "#2b2724",
+          "secondary_button_label": "#f4efe9",
+          "shadow": "#2b2724"
         }
       }
     }

@@ -15,25 +15,25 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Real petals & fruit. Whole leaves, never dust.",
+            "heading": "Teaware from Jingdezhen. Tea from Yunnan.",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Flavored black tea you can actually see. Naturally sweet, 0 calories. Ships from our U.S. warehouse in 3–7 days.",
+            "text": "Hand-thrown single-glaze porcelain and whole-leaf tea, chosen to be used every day.",
             "text_style": "body"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop C&N TEA",
-            "button_link_1": "shopify://collections/cn-tea",
+            "button_label_1": "Shop Teaware",
+            "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
+            "button_label_2": "Shop Tea",
+            "button_link_2": "shopify://collections/all",
             "button_style_secondary_2": false
           }
         }
@@ -45,7 +45,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/ROSEBERRY_banner.png",
-        "image_overlay_opacity": 30,
+        "image_overlay_opacity": 0,
         "image_height": "large",
         "image_behavior": "none",
         "desktop_content_position": "middle-left",
@@ -73,7 +73,7 @@
         "show_view_all": false,
         "view_all_style": "solid",
         "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
+        "image_ratio": "portrait",
         "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
@@ -81,8 +81,8 @@
         "quick_add": "none",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     },
     "multicolumn_GjACK3": {
@@ -100,8 +100,8 @@
         "column_UFkkfL": {
           "type": "column",
           "settings": {
-            "title": "C&N TEA, 3-7 days",
-            "text": "<p>From our U.S. warehouse, after 1–3 business days processing.</p>",
+            "title": "Ships in 1–3 days",
+            "text": "<p>Every order is packed and on its way within 1–3 business days.</p>",
             "link_label": "",
             "link": ""
           }
@@ -135,8 +135,8 @@
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 28
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     },
     "multicolumn": {
@@ -190,7 +190,7 @@
         " /* 强制多列的所有标题不折行，保持在一行内，完美横向对齐 */.multicolumn-card__info .inline-richtext,.multicolumn-card__info h3 {white-space: nowrap !important;}"
       ],
       "settings": {
-        "title": "Why C&N TEA",
+        "title": "Why Charm & Nature",
         "heading_size": "h1",
         "image_width": "third",
         "image_ratio": "adapt",
@@ -202,8 +202,8 @@
         "color_scheme": "scheme-2",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     },
     "multicolumn_6Jxh6j": {
@@ -246,8 +246,8 @@
         "color_scheme": "scheme-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     },
     "featured_collection_kQwKGW": {
@@ -267,7 +267,7 @@
         "show_view_all": true,
         "view_all_style": "solid",
         "color_scheme": "",
-        "image_ratio": "adapt",
+        "image_ratio": "portrait",
         "image_shape": "default",
         "show_secondary_image": false,
         "show_vendor": false,
@@ -275,8 +275,8 @@
         "quick_add": "none",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     },
     "newsletter_xyWTqW": {
@@ -285,7 +285,7 @@
         "heading_jMjNht": {
           "type": "heading",
           "settings": {
-            "heading": "Join the C&N TEA Club",
+            "heading": "Join the Charm & Nature Club",
             "heading_size": "h1"
           }
         },
@@ -307,10 +307,10 @@
       ],
       "name": "t:sections.newsletter.presets.name",
       "settings": {
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-2",
         "full_width": true,
-        "padding_top": 28,
-        "padding_bottom": 28
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     }
   },
