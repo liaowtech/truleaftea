@@ -286,7 +286,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/hero-floral-tea.jpg",
-            "image_overlay_opacity": 20,
+            "image_overlay_opacity": 30,
             "heading": "Scented with real blossoms.",
             "heading_size": "h0",
             "subheading": "Jasmine and osmanthus layered with the leaves overnight, the old way. No flavoring, nothing sprayed on.",
@@ -294,8 +294,8 @@
             "link": "shopify://collections/floral-teas",
             "button_style_secondary": true,
             "show_text_box": false,
-            "box_align": "middle-left",
-            "text_alignment": "left",
+            "box_align": "middle-right",
+            "text_alignment": "right",
             "text_alignment_mobile": "center",
             "color_scheme": "scheme-3"
           }
