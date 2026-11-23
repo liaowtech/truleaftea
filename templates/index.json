@@ -286,7 +286,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/hero-floral-tea.jpg",
-            "image_overlay_opacity": 15,
+            "image_overlay_opacity": 20,
             "heading": "Scented with real blossoms.",
             "heading_size": "h0",
             "subheading": "Jasmine and osmanthus layered with the leaves overnight, the old way. No flavoring, nothing sprayed on.",
@@ -304,7 +304,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/hero-tea-essence.jpg",
-            "image_overlay_opacity": 15,
+            "image_overlay_opacity": 20,
             "heading": "Pu-erh, without the ritual.",
             "heading_size": "h0",
             "subheading": "One solid piece of slow-extracted ripe pu-erh makes one full cup, hot or iced, in seconds. Nothing added.",
