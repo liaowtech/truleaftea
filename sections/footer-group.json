@@ -38,7 +38,7 @@
           "type": "link_list",
           "settings": {
             "heading": "Shop",
-            "menu": "c-n-tea-menu"
+            "menu": "shop"
           }
         },
         "footer-2": {
@@ -46,7 +46,7 @@
           "disabled": true,
           "settings": {
             "heading": "&nbsp;© 2026 Charm & Nature · Operated by VIKTOR SUPPLY LLC · 30 N Gould St Ste R, Sheridan, WY 82801&nbsp;",
-            "subtext": "<p>Whole-leaf teas with real petals & fruit you can see, plus handcrafted teaware. Plastic-free, never dust.</p>"
+            "subtext": "<p>Floral teas and pu-erh tea essence from Yunnan. Scented with real blossoms, nothing added.</p>"
           }
         }
       },

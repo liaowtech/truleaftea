@@ -48,8 +48,8 @@
         "text_dgtJgt": {
           "type": "text",
           "settings": {
-            "text": "C&N TEA ships from our U.S. warehouse in 3–7 business days. Herbal blends, loose-leaf, and teaware ship in 8–15 days. Standard shipping $5.90 · free on orders $60+. <a href=\"/policies/shipping-policy\" title=\"Shipping Policy\">Shipping policy</a>",
-            "text_style": "uppercase"
+            "text": "Ships from Yunnan in 1–3 business days · US delivery 10–20 days, tracked · Duties included · Free shipping over $59. <a href=\"/policies/shipping-policy\" title=\"Shipping Policy\">Shipping policy</a>",
+            "text_style": "body"
           }
         },
         "buy_buttons": {
@@ -65,21 +65,21 @@
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
-          "disabled": true,
+          "disabled": false,
           "settings": {
-            "heading": "Materials",
-            "icon": "leather",
-            "content": "",
+            "heading": "Lab reports & facility",
+            "icon": "check_mark",
+            "content": "<p>We publish laboratory report numbers rather than badges. Our Classic pu-erh tea essence has been screened for pesticide residues by Eurofins (report AR-26-SU-095238-03) against EU limits, and the tea essence is produced in an FDA-registered food facility. Other teas are being tested; see <a href=\"/pages/lab-reports\">Lab Reports</a> for what has and hasn't been covered.</p>",
             "page": ""
           }
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
-          "disabled": true,
+          "disabled": false,
           "settings": {
-            "heading": "Shipping & Returns",
+            "heading": "Shipping & returns",
             "icon": "truck",
-            "content": "",
+            "content": "<p>Every order ships from our partner's warehouse in Yunnan, China, within 1–3 business days. Delivery to the US takes 10–20 days with full tracking. All duties and customs fees are included in your price. Free US shipping over $59, a flat $6.99 below.</p><p>Tea is a food product, so we cannot take back opened items. Anything damaged in transit or sent in error is replaced at no cost: email us within 7 days with a photo.</p>",
             "page": ""
           }
         },
