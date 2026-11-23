@@ -268,7 +268,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/hero-tea-yunnan.jpg",
-            "image_overlay_opacity": 20,
+            "image_overlay_opacity": 30,
             "heading": "Tea from Yunnan.",
             "heading_size": "h0",
             "subheading": "Floral teas scented with real blossoms, and pu-erh tea essence you can brew anywhere in seconds. Picked and packed at origin.",
