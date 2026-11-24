@@ -14,7 +14,7 @@
       "settings": {
         "collection": "floral-teas",
         "products_to_show": 4,
-        "title": "Floral Teas",
+        "title": "Scented Teas",
         "heading_size": "h1",
         "description": "<p>Scented the traditional way: fresh blossoms layered with the leaves until the tea carries the fragrance on its own.</p>",
         "show_description": true,
@@ -160,7 +160,7 @@
         "column_DgF9Xb": {
           "type": "column",
           "settings": {
-            "title": "Floral teas",
+            "title": "Scented teas",
             "text": "<p>3 g (one pouch) per 300 ml · 90 °C / 195 °F · 3 minutes. Re-steep 2–3 times. For iced tea, 5 g in 500 ml cold water overnight.</p>",
             "link_label": "",
             "link": ""
@@ -271,7 +271,7 @@
             "image_overlay_opacity": 30,
             "heading": "Tea from Yunnan.",
             "heading_size": "h0",
-            "subheading": "Floral teas scented with real blossoms, and pu-erh tea paste (cha gao) you can brew anywhere in seconds. Picked and packed at origin.",
+            "subheading": "Scented teas layered with real blossoms, and pu-erh tea paste (cha gao) you can brew anywhere in seconds. Picked and packed at origin.",
             "button_label": "Shop All Tea",
             "link": "shopify://collections/tea",
             "button_style_secondary": true,
