@@ -100,7 +100,7 @@
       </li>
     {%- endfor -%}
   </ul>
-  {%- if linklists['secondary-menu'] != blank -%}
+  {%- if linklists['secondary-menu'].links.size > 0 -%}
     <ul class="list-menu list-menu--inline header__secondary-menu" role="list">
       {%- for link in linklists['secondary-menu'].links -%}
         <li>
