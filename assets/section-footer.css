@@ -506,3 +506,11 @@
     }
   }
 }
+
+/* Dark footer: show the brand mark in the footer text colour, keep long links inside their column */
+.footer-block__brand-info .footer-block__image-wrapper img {
+  filter: brightness(0) invert(0.93);
+}
+.footer-block__details-content a {
+  overflow-wrap: anywhere;
+}
