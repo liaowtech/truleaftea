@@ -107,7 +107,7 @@
           "type": "column",
           "settings": {
             "title": "Nothing added",
-            "text": "<p>Tea essence is pure ripe pu-erh, concentrated. No sugar, no flavoring, no fillers. It dissolves clean.</p>",
+            "text": "<p>Pu-erh tea paste is pure ripe pu-erh, slow-reduced and pressed solid. No sugar, no flavoring, no fillers. It dissolves clean.</p>",
             "link_label": "",
             "link": ""
           }
@@ -169,7 +169,7 @@
         "column_FjcUR6": {
           "type": "column",
           "settings": {
-            "title": "Tea essence",
+            "title": "Pu-erh tea paste",
             "text": "<p>Hot: one piece in 200–500 ml water at 85–95 °C, stir 30 seconds. Iced: one piece in a 500 ml bottle of cold water, shake, wait 5 minutes.</p>",
             "link_label": "",
             "link": ""
@@ -204,9 +204,9 @@
       "settings": {
         "collection": "pu-erh-tea-essence",
         "products_to_show": 6,
-        "title": "Pu-erh Tea Essence",
+        "title": "Pu-erh Tea Paste",
         "heading_size": "h1",
-        "description": "<p>Ripe pu-erh, slow-extracted and set into solid pieces. One piece, one cup, no teapot.</p>",
+        "description": "<p>Ripe pu-erh, slow-reduced and pressed into solid pieces. One piece, one cup, no teapot.</p>",
         "show_description": true,
         "description_style": "body",
         "columns_desktop": 3,
@@ -271,7 +271,7 @@
             "image_overlay_opacity": 30,
             "heading": "Tea from Yunnan.",
             "heading_size": "h0",
-            "subheading": "Floral teas scented with real blossoms, and pu-erh tea essence you can brew anywhere in seconds. Picked and packed at origin.",
+            "subheading": "Floral teas scented with real blossoms, and pu-erh tea paste (cha gao) you can brew anywhere in seconds. Picked and packed at origin.",
             "button_label": "Shop All Tea",
             "link": "shopify://collections/tea",
             "button_style_secondary": true,
@@ -307,8 +307,8 @@
             "image_overlay_opacity": 20,
             "heading": "Pu-erh, without the ritual.",
             "heading_size": "h0",
-            "subheading": "One solid piece of slow-extracted ripe pu-erh makes one full cup, hot or iced, in seconds. Nothing added.",
-            "button_label": "Shop Tea Essence",
+            "subheading": "One solid piece of pu-erh tea paste makes one full cup, hot or iced, in seconds. Nothing added.",
+            "button_label": "Shop Tea Paste",
             "link": "shopify://collections/pu-erh-tea-essence",
             "button_style_secondary": true,
             "show_text_box": false,
