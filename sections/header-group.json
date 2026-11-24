@@ -17,7 +17,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Free US shipping over $59 · Ships from Yunnan, duties included · 20% off your first order with code WELCOME20",
+            "text": "FREE US SHIPPING OVER $59 — DUTIES INCLUDED — 20% OFF YOUR FIRST ORDER WITH CODE WELCOME20",
             "link": "shopify://policies/shipping-policy"
           }
         }
@@ -29,7 +29,7 @@
         "auto_rotate": false,
         "change_slides_speed": 5,
         "color_scheme": "scheme-2",
-        "show_line_separator": true,
+        "show_line_separator": false,
         "show_social": false,
         "enable_country_selector": false,
         "enable_language_selector": false
@@ -43,7 +43,7 @@
         "mobile_logo_position": "center",
         "menu": "main-menu",
         "menu_type_desktop": "dropdown",
-        "sticky_header_type": "on-scroll-up",
+        "sticky_header_type": "always",
         "show_line_separator": true,
         "color_scheme": "scheme-1",
         "menu_color_scheme": "",
@@ -51,8 +51,9 @@
         "enable_language_selector": false,
         "enable_customer_avatar": true,
         "margin_bottom": 0,
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 12,
+        "padding_bottom": 8,
+        "menu_secondary": "secondary-menu"
       }
     }
   },

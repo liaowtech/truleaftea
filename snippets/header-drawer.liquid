@@ -20,7 +20,7 @@
       <div class="menu-drawer__inner-container">
         <div class="menu-drawer__navigation-container">
           <nav class="menu-drawer__navigation">
-            <ul class="menu-drawer__menu has-submenu list-menu" role="list">
+            <ul class="menu-drawer__menu menu-drawer__menu--primary has-submenu list-menu" role="list">
               {%- for link in section.settings.menu.links -%}
                 <li>
                   {%- if link.links != blank -%}
@@ -131,6 +131,20 @@
                       {{ link.title | escape }}
                     </a>
                   {%- endif -%}
+                </li>
+              {%- endfor -%}
+              {%- for link in section.settings.menu_secondary.links -%}
+                <li>
+                  <a
+                    id="HeaderDrawerSecondary-{{ link.handle }}"
+                    href="{{ link.url }}"
+                    class="menu-drawer__menu-item menu-drawer__menu-item--secondary list-menu__item link link--text focus-inset{% if link.current %} menu-drawer__menu-item--active{% endif %}"
+                    {% if link.current %}
+                      aria-current="page"
+                    {% endif %}
+                  >
+                    {{ link.title | escape }}
+                  </a>
                 </li>
               {%- endfor -%}
             </ul>

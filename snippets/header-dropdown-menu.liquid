@@ -100,4 +100,67 @@
       </li>
     {%- endfor -%}
   </ul>
+  {%- if section.settings.menu_secondary != blank -%}
+    <ul class="list-menu list-menu--inline header__secondary-menu" role="list">
+      {%- for link in section.settings.menu_secondary.links -%}
+        <li>
+          <a
+            id="HeaderMenuSecondary-{{ link.handle }}"
+            href="{{ link.url }}"
+            class="header__menu-item header__menu-item--secondary list-menu__item link link--text focus-inset"
+            {% if link.current %}
+              aria-current="page"
+            {% endif %}
+          >
+            <span
+              {%- if link.current %}
+                class="header__active-menu-item"
+              {% endif %}
+            >
+              {{- link.title | escape -}}
+            </span>
+          </a>
+        </li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
 </nav>
+
+{% stylesheet %}
+  .header__inline-menu > .list-menu--inline:first-child .header__menu-item {
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 0.084rem;
+    text-transform: uppercase;
+    color: rgb(var(--color-foreground));
+    padding: 0.9rem 1.4rem;
+  }
+  .header__secondary-menu {
+    justify-content: center;
+    margin-top: 0.2rem;
+  }
+  @media screen and (min-width: 990px) {
+    .header--top-center .header__inline-menu {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  .header__menu-item--secondary {
+    font-size: 1.3rem;
+    font-weight: 400;
+    letter-spacing: 0.06rem;
+    text-transform: none;
+    padding: 0.5rem 1.2rem;
+  }
+  .menu-drawer__menu-item--secondary {
+    font-size: 1.5rem;
+    opacity: 0.8;
+  }
+  .menu-drawer__menu--primary .menu-drawer__menu-item {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: 0.084rem;
+  }
+{% endstylesheet %}
