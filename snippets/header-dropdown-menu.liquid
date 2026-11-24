@@ -100,9 +100,9 @@
       </li>
     {%- endfor -%}
   </ul>
-  {%- if section.settings.menu_secondary != blank -%}
+  {%- if linklists['secondary-menu'] != blank -%}
     <ul class="list-menu list-menu--inline header__secondary-menu" role="list">
-      {%- for link in section.settings.menu_secondary.links -%}
+      {%- for link in linklists['secondary-menu'].links -%}
         <li>
           <a
             id="HeaderMenuSecondary-{{ link.handle }}"
@@ -128,12 +128,17 @@
 
 {% stylesheet %}
   .header__inline-menu > .list-menu--inline:first-child .header__menu-item {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: 600;
     letter-spacing: 0.084rem;
     text-transform: uppercase;
     color: rgb(var(--color-foreground));
-    padding: 0.9rem 1.4rem;
+    padding: 0.9rem 1rem;
+    white-space: nowrap;
+  }
+  .header__inline-menu > .list-menu--inline:first-child {
+    flex-wrap: nowrap;
+    justify-content: center;
   }
   .header__secondary-menu {
     justify-content: center;

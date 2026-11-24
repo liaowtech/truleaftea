@@ -133,7 +133,7 @@
                   {%- endif -%}
                 </li>
               {%- endfor -%}
-              {%- for link in section.settings.menu_secondary.links -%}
+              {%- for link in linklists['secondary-menu'].links -%}
                 <li>
                   <a
                     id="HeaderDrawerSecondary-{{ link.handle }}"
