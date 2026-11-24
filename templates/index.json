@@ -267,7 +267,7 @@
         "slide_tea": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/hero-tea-yunnan.jpg",
+            "image": "shopify://shop_images/cn-hero-pouring.jpg",
             "image_overlay_opacity": 30,
             "heading": "Tea from Yunnan.",
             "heading_size": "h0",
@@ -285,13 +285,13 @@
         "slide_floral": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/hero-floral-tea.jpg",
+            "image": "shopify://shop_images/cn-hero-tea-mountain.jpg",
             "image_overlay_opacity": 30,
-            "heading": "Scented with real blossoms.",
+            "heading": "Grown in the mountains.",
             "heading_size": "h0",
-            "subheading": "Jasmine and osmanthus layered with the leaves overnight, the old way. No flavoring, nothing sprayed on.",
-            "button_label": "Shop Floral Teas",
-            "link": "shopify://collections/floral-teas",
+            "subheading": "High tea gardens in Yunnan, picked by hand and finished where they grow.",
+            "button_label": "Our Story",
+            "link": "shopify://pages/about-us",
             "button_style_secondary": true,
             "show_text_box": false,
             "box_align": "middle-right",
@@ -303,11 +303,11 @@
         "slide_essence": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/hero-tea-essence.jpg",
+            "image": "shopify://shop_images/cn-hero-lakeside.jpg",
             "image_overlay_opacity": 20,
-            "heading": "Pu-erh, without the ritual.",
+            "heading": "Slow down for a cup.",
             "heading_size": "h0",
-            "subheading": "One solid piece of pu-erh tea paste makes one full cup, hot or iced, in seconds. Nothing added.",
+            "subheading": "Scented teas, ancient-tree pu-erh and pu-erh tea paste, all from one maker in Yunnan.",
             "button_label": "Shop Tea Paste",
             "link": "shopify://collections/pu-erh-tea-essence",
             "button_style_secondary": true,
