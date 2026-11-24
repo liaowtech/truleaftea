@@ -9,9 +9,9 @@
  */
 {
   "current": {
-    "logo": "shopify://shop_images/charmandnature.svg",
+    "logo": "shopify://shop_images/cn-logo-wordmark.svg",
     "logo_width": 190,
-    "favicon": "shopify://shop_images/charmandnature-favicon.svg",
+    "favicon": "shopify://shop_images/cn-favicon.svg",
     "type_header_font": "cormorant_n5",
     "heading_scale": 115,
     "type_body_font": "inter_n4",
