@@ -65,7 +65,6 @@
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
-          "disabled": false,
           "settings": {
             "heading": "Lab reports & facility",
             "icon": "check_mark",
@@ -75,7 +74,6 @@
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
-          "disabled": false,
           "settings": {
             "heading": "Shipping & returns",
             "icon": "truck",
