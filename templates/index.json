@@ -6,8 +6,7 @@
  * or related systems. Please exercise caution as any changes
  * made to this file may be overwritten.
  * ------------------------------------------------------------
- */
-{
+ */{
   "sections": {
     "slideshow": {
       "type": "slideshow",
@@ -87,7 +86,7 @@
       "type": "featured-collection",
       "settings": {
         "collection": "floral-teas",
-        "products_to_show": 8,
+        "products_to_show": 4,
         "title": "Scented Teas",
         "heading_size": "h2",
         "description": "",
@@ -115,7 +114,7 @@
       "type": "featured-collection",
       "settings": {
         "collection": "pu-erh-tea-essence",
-        "products_to_show": 8,
+        "products_to_show": 4,
         "title": "Pu-erh Tea Paste",
         "heading_size": "h2",
         "description": "",
