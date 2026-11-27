@@ -209,3 +209,10 @@ slideshow-component .slideshow__slide.grid__item {
   max-width: 100%;
   flex: 0 0 100%;
 }
+
+/* Charm & Nature: v3 hero images keep the subject (right-centre) in frame on phones */
+@media screen and (max-width: 749px) {
+  .slideshow__media img {
+    object-position: 70% 50%;
+  }
+}

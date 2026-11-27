@@ -9,6 +9,52 @@
   }
 {%- endstyle -%}
 
+{%- liquid
+  assign cn_banner_name = collection.handle | prepend: 'cn-banner-' | append: '.jpg'
+  assign cn_banner = images[cn_banner_name]
+  assign cn_has_banner = false
+  if cn_banner.width > 0
+    assign cn_has_banner = true
+  endif
+  assign cn_desc_parts = collection.description | split: '</em></p>'
+  assign cn_tagline = ''
+  assign cn_desc_rest = collection.description
+  if cn_desc_parts.size > 1
+    assign cn_tagline = cn_desc_parts[0] | strip_html | strip
+    assign cn_desc_rest = cn_desc_parts[1]
+  endif
+-%}
+{%- if cn_has_banner -%}
+  <div class="cn-collection-banner">
+    <div class="cn-collection-banner__media">
+      <img
+        srcset="{{ cn_banner | image_url: width: 750 }} 750w, {{ cn_banner | image_url: width: 1100 }} 1100w, {{ cn_banner | image_url: width: 1500 }} 1500w, {{ cn_banner | image_url: width: 2000 }} 2000w, {{ cn_banner | image_url: width: 3200 }} 3200w"
+        src="{{ cn_banner | image_url: width: 1500 }}"
+        sizes="100vw"
+        alt="{{ collection.title | escape }}"
+        width="{{ cn_banner.width }}"
+        height="{{ cn_banner.height }}"
+        fetchpriority="high"
+      >
+    </div>
+    <div class="cn-collection-banner__content page-width">
+      <div class="cn-collection-banner__text">
+        <h1 class="cn-collection-banner__title">
+          <span class="visually-hidden">{{ 'sections.collection_template.title' | t }}: </span>
+          {{- collection.title | escape -}}
+        </h1>
+        {%- if cn_tagline != blank -%}
+          <p class="cn-collection-banner__tagline">{{ cn_tagline | escape }}</p>
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+  {%- if section.settings.show_collection_description and cn_desc_rest != blank -%}
+    <div class="cn-collection-intro page-width">
+      <div class="cn-collection-intro__text rte">{{ cn_desc_rest }}</div>
+    </div>
+  {%- endif -%}
+{%- else -%}
 <div class="collection-hero{% if section.settings.show_collection_image and collection.image %} collection-hero--with-image{% endif %} color-{{ section.settings.color_scheme }} gradient">
   <div class="collection-hero__inner page-width {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
     <div class="collection-hero__text-wrapper">
@@ -44,6 +90,7 @@
     {%- endif -%}
   </div>
 </div>
+{%- endif -%}
 
 {% schema %}
 {

@@ -14,8 +14,8 @@
         "slide_tea": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/cn-hero-pouring.jpg",
-            "image_overlay_opacity": 30,
+            "image": "shopify://shop_images/cn-hero-v3-pouring.jpg",
+            "image_overlay_opacity": 0,
             "heading": "Tea from Yunnan.",
             "heading_size": "h1",
             "subheading": "Scented teas layered with real blossoms, and pu-erh tea paste (cha gao) you can brew anywhere in seconds. Picked and packed at origin.",
@@ -32,31 +32,13 @@
         "slide_floral": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/cn-hero-tea-mountain.jpg",
-            "image_overlay_opacity": 30,
+            "image": "shopify://shop_images/cn-hero-v3-tea-mountain.jpg",
+            "image_overlay_opacity": 0,
             "heading": "Grown in the mountains.",
             "heading_size": "h1",
             "subheading": "High tea gardens in Yunnan, picked by hand and finished where they grow.",
             "button_label": "Our Story",
             "link": "shopify://pages/about-us",
-            "button_style_secondary": true,
-            "show_text_box": false,
-            "box_align": "middle-right",
-            "text_alignment": "right",
-            "text_alignment_mobile": "center",
-            "color_scheme": "scheme-3"
-          }
-        },
-        "slide_essence": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/cn-hero-lakeside.jpg",
-            "image_overlay_opacity": 20,
-            "heading": "Slow down for a cup.",
-            "heading_size": "h1",
-            "subheading": "Scented teas, ancient-tree pu-erh and pu-erh tea paste, all from one maker in Yunnan.",
-            "button_label": "Shop Tea Paste",
-            "link": "shopify://collections/pu-erh-tea-essence",
             "button_style_secondary": true,
             "show_text_box": false,
             "box_align": "middle-left",
@@ -68,8 +50,7 @@
       },
       "block_order": [
         "slide_tea",
-        "slide_floral",
-        "slide_essence"
+        "slide_floral"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -78,7 +59,7 @@
         "auto_rotate": true,
         "change_slides_speed": 5,
         "image_behavior": "none",
-        "show_text_below": false,
+        "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
     },
