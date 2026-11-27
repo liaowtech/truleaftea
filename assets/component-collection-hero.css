@@ -109,9 +109,9 @@
 .cn-collection-banner__media img {
   display: block;
   width: 100%;
-  height: clamp(30rem, 32vw, 52rem);
+  height: clamp(32rem, 40vw, 62rem);
   object-fit: cover;
-  object-position: 70% 50%;
+  object-position: 70% 45%;
 }
 .cn-collection-banner__content {
   position: absolute;
